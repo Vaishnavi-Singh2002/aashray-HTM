@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Aashray</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function () {
+			if ($(window).scrollTop()) {
+				$('nav').addClass('black');
+			} else {
+				$('nav').removeClass('black');
+			}
+		})
+	</script>
+	 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+	 <link rel="stylesheet" href="../css/style.css">
+	 <link rel="stylesheet" href="../css/footer.css">
+	 <link rel="stylesheet" href="../css/courses.css">
+	 <script src="/javascript/javascript.js"></script>
+	 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	 <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	 
+   <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+ 
+   <link rel="stylesheet" href="./assets/css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+	 href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+	 rel="stylesheet">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Cedarville+Cursive&family=Nunito&display=swap" rel="stylesheet">
+ <style>
+	.storeimg{
+		margin-top: 15px;
+	}
+ </style>
+
+</head>
+
+<body>
+
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/background.jpg" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">STORE</a></li>
+				<li><a href="./index.html"> Home</a></li>
+				<!-- <li><a href="#team_section">About</a></li> -->
+
+				<!-- <li><a href="#contactus_section">Contact</a></li> -->
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img
+					src="images/icon/search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Login</a>
+			<img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<br><br><br>
+		 <div class="storeimg">
+			<img src="STORE.png" alt="">
+		</div>
+		</header>
+
+		<!-- wrapper -->  
+
+	
+		<br><br><br><br><br><br><br><br>
+	  <main >
+	
+			<div class="container">
+			  <h1 style="text-align: center;">HANDMADE PRODUCTS</h1>
+			  <section class="card-area">
+  
+	
+	</section>
+			</div>
+  
+			 <hr>
+  
+		  <section class="">
+			<input type="radio" id="All" name="categories" value="All" checked="">
+	  <input type="radio" id="IT" name="categories" value="IT">
+	  <input type="radio" id="MUSIC" name="categories" value="MUSIC">
+	  <input type="radio" id="LANGUAGES" name="categories" value="LANGUAGES">
+	  <input type="radio" id="HISTORY" name="categories" value="HISTORY">
+  
+	  <ol class="filters">
+		<li>
+		  <label for="All">All</label>
+		</li>
+		<li>
+		  <label for="IT">Knitted</label>
+		</li>
+		<li>
+		  <label for="MUSIC">Food Items</label>
+		</li>
+		<li>
+		  <label for="LANGUAGES">HandiCraft</label>
+		</li>
+		
+	  </ol>
+  
+	  <ol class="posts">
+		<li class="post" data-category="IT">
+		  <article>
+			<figure>
+			  <a href="#">
+				<img src="./image/knitted1.png" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="">knitted<br>RS.150<br></a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="https://www.amazon.in/safunooza-Living-Sitting-Ottoman-Filled/dp/B0BVZBG7W4/ref=sr_1_8?crid=18ZTS07C1QEMI&keywords=knitted&qid=1698542876&sprefix=knitted%2B%2Caps%2C194&sr=8-8&th=1">Knitted Otoman Bean filled stool
+				  </a>
+				  
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="IT">
+		  <article>
+			<figure>
+			  <a href="#">
+				<img src="./image/knitted2.png" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="">knitted <br> RS.300<BR></a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="https://www.amazon.in/dp/B07RM47H8Q/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t">Pouffes for Sitting
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="IT">
+		  <article>
+			<figure>
+			  <a href="#">
+				<img src="./image/knitted3.png" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="">knitted<BR> Rs 1000<br></a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="https://www.amazon.in/FLUFFYFUN-Knitted-Bunny-Stuffed-Animal/dp/B094CGNVN7/ref=sr_1_9?keywords=knitted&qid=1698543918&sr=8-9">Knitted toy
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="IT">
+		  <article>
+			<figure>
+			  <a href="#">
+				<img src="./image/knitted5.png" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="">knitted <br> Rs 500<br></a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="https://www.amazon.in/Wegmans-Hand-Knitted-Baby-Sweater-Newborn/dp/B082SSHVYC/ref=sr_1_3_sspa?crid=19HGCIVYI7WEN&keywords=knitted&qid=1698554786&sprefix=knitted%2Caps%2C291&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">knitted top</a>
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="IT">
+		  <article>
+			<figure>
+			  <a href="https://www.amazon.in/dp/B0CCXZZWQK/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B0CCXZZWQK&pd_rd_w=UFQck&content-id=amzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d&pf_rd_p=2575ab02-73ff-40ca-8d3a-4fbe87c5a28d&pf_rd_r=03H35KTETCBH61M9ZG6A&pd_rd_wg=an2VJ&pd_rd_r=760b5a43-870e-4dde-bc4a-1d3648e71db5&s=toys&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw">
+
+				<img src="./image/knitted4.png" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="https://www.amazon.in/dp/B0CCXZZWQK/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B0CCXZZWQK&pd_rd_w=UFQck&content-id=amzn1.sym.2575ab02-73ff-40ca-8d3a-4fbe87c5a28d&pf_rd_p=2575ab02-73ff-40ca-8d3a-4fbe87c5a28d&pf_rd_r=03H35KTETCBH61M9ZG6A&pd_rd_wg=an2VJ&pd_rd_r=760b5a43-870e-4dde-bc4a-1d3648e71db5&s=toys&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw">knitted toy<br>Rs 1300<br></a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="#">Sewing, stitching and tailoring
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="MUSIC">
+		  <article>
+			<figure>
+			  <a href="#">
+				<img src="../image/chil.jpeg" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="https://www.amazon.in/Lal-Mirch-Bharwa-Achar-Grams/dp/B0CFHPVJT9/ref=sr_1_1_sspa?crid=99DL23UE1HIF&keywords=chilli+pickles&qid=1698555572&sprefix=chilli+pickles%2Caps%2C257&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Pickles<br> Rs. 120 <br></a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="https://www.amazon.in/Lal-Mirch-Bharwa-Achar-Grams/dp/B0CFHPVJT9/ref=sr_1_1_sspa?crid=99DL23UE1HIF&keywords=chilli+pickles&qid=1698555572&sprefix=chilli+pickles%2Caps%2C257&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Chilli pickles<br>Rs. 125<br>
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="MUSIC">
+		  <article>
+			<figure>
+			  <a href="#">
+				<img src="../image/mixed.jpeg" width="100%" alt="">       
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="https://www.amazon.in/Soul-Mixed-Pickle-Olive-Grams/dp/B0BCQWWXBM/ref=sr_1_3_sspa?crid=IW4AORX396C6&keywords=mixed+pickles&qid=1698555633&sprefix=mixed+pickles%2Caps%2C204&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Pickles <br>Rs. 170<br></a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="https://www.amazon.in/Soul-Mixed-Pickle-Olive-Grams/dp/B0BCQWWXBM/ref=sr_1_3_sspa?crid=IW4AORX396C6&keywords=mixed+pickles&qid=1698555633&sprefix=mixed+pickles%2Caps%2C204&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Mixed pickles <br> Rs.155<br>
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="MUSIC">
+		  <article>
+			<figure>
+			  <a href="https://www.amazon.in/s?k=mango+pickles&crid=39EZOWKKP0LLQ&sprefix=mango+pickles%2Caps%2C217&ref=nb_sb_noss_1">
+				<img src="../image/mango.jpeg" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="">Pickles<br>Rs 120<br></a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="#">Mango pickles
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="LANGUAGES">
+		  <article>
+			<figure>
+			  <a href="#">
+				<img src="./image/handicraft1.png" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="https://www.amazon.in/dp/B09SYXBV25/ref=sspa_dk_detail_2?pd_rd_i=B09SYXBV25&pd_rd_w=m6Q9U&content-id=amzn1.sym.dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_p=dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_r=C80GAK15AVCMBMRVEB23&pd_rd_wg=H0XMG&pd_rd_r=14e74dad-1d0d-40e4-b939-b5e2caa12875&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&smid=A19ADZ4V5YAXLE&th=1">HandiCraft</a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="https://www.amazon.in/dp/B09SYXBV25/ref=sspa_dk_detail_2?pd_rd_i=B09SYXBV25&pd_rd_w=m6Q9U&content-id=amzn1.sym.dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_p=dcd65529-2e56-4c74-bf19-15db07b4a1fc&pf_rd_r=C80GAK15AVCMBMRVEB23&pd_rd_wg=H0XMG&pd_rd_r=14e74dad-1d0d-40e4-b939-b5e2caa12875&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&smid=A19ADZ4V5YAXLE&th=1">Handmade Decor
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="LANGUAGES">
+		  <article>
+			<figure>
+			  <a href="#">
+				<img src="./image/handicraft2.png" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="https://www.amazon.in/Flower-Painted-Peacock-Handicrafts-Paradise/dp/B074XTDQGF/ref=sr_1_9?crid=1DRLPMZ3B3HES&keywords=handicraft&qid=1698555076&sprefix=handicraft%2Caps%2C231&sr=8-9">HandiCraft</a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="#">Handmade Vase
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="LANGUAGES">
+		  <article>
+			<figure>
+			  <a href="#">
+				<img src="../image/softtoy.jpeg" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="">HandiCraft</a>
+				  </li>
+				  <li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="#">Soft toy 
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="HISTORY">
+		  <article>
+			<figure>
+			  <a href="#">
+				<img src="../image/wool.jpeg" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="">Training</a>
+				  </li>
+				  <li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="#">Wool Craft
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+		<li class="post" data-category="HISTORY">
+		  <article>
+			<figure>
+			  <a href="https://www.amazon.in/Chakra-Healing-Beginners-Self-Healing-Techniques/dp/B07X1347M6/ref=sr_1_1_sspa?crid=34QNX23AV78PK&keywords=self+help+book&qid=1698555283&sprefix=self+help+book%2Caps%2C222&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+				<img src="./image/training1.png" width="100%" alt="">
+			  </a>
+			  <figcaption>
+				<ol class="post-categories">
+				  <li>
+					<a href="">Training</a>
+				  </li>
+				</ol>
+				<h2 class="post-title">
+				  <a href="#">A self help book
+				  </a>
+				</h2>
+			  </figcaption>
+			</figure>
+		  </article>
+		</li>
+	  </ol>
+		  </section>
+			</div>
+			  
+	  </main>
+	<!-- Courses Available -->
+	
+	<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+
+				<div class="logo"></div>
+				<div class="social-media">
+
+				</div><br><br>
+				<p class="rights-text">Connect with us</p>
+				<br>
+				<p><br>Ghaziabad-201206</p><br>
+				<p> 1234455<br>&nbsp; aashray@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff"></h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
